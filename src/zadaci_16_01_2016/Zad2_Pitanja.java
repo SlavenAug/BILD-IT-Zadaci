@@ -7,7 +7,7 @@
 
 package zadaci_16_01_2016;
 import methods.Unos;
-public class Zad2_Pitanj {
+public class Zad2_Pitanja {
 
 	
 	public static void test(int pitanja) {
