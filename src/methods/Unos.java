@@ -32,7 +32,7 @@ public class Unos {
 				i = unos.nextDouble();
 				prekid = false;
 			} catch (InputMismatchException e) {
-				System.out.println("Niste unije double vrijednost, pokusajte ponovo!");
+				System.out.println("Niste unijeli double vrijednost, pokusajte ponovo!");
 				unos.nextLine();
 			}
 		}
