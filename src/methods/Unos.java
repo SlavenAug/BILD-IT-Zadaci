@@ -23,6 +23,24 @@ public class Unos {
 		return i;
 	}
 
+	public static long inputLong() {
+
+		long i = 0;
+		boolean prekid = true;
+
+		while (prekid) {
+			try {
+				i = unos.nextLong();
+
+				prekid = false;
+			} catch (InputMismatchException e) {
+				System.out.println("Niste unijeli cjeli broj, pokusajte ponovo!");
+				unos.nextLine();
+			}
+		}
+		return i;
+	}
+
 	public static double inputDouble() {
 		double i = 0.0;
 		boolean prekid = true;
